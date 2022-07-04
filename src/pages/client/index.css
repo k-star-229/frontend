@@ -1,0 +1,48 @@
+* {
+    font-family: IBM Plex Sans VF, Helvetica Neue, Arial, sans-serif !important;
+}
+
+.content {
+    margin: 5rem 0 0 0;
+    font-size:1.5rem;
+    font-weight:400;
+}
+.desc{
+    font-weight:200;
+    line-height:1.5rem;
+}
+.price_button{
+    padding:1rem;
+}
+.eth-price{
+    float:left;
+    margin:0 0.25rem;
+}
+.price{
+    float:right;
+    margin:0 0.25rem;
+}
+.price_ts{
+    margin:0.25rem 0.25rem;
+}
+.bx--data-table {
+    margin-top:4rem;
+}
+.button-grp{
+    margin-top:1rem;
+}
+.bx--data-table td{
+    background:#fff;
+}
+.serial {
+    counter-reset: serial-number;  
+    margin-top:1rem !important;
+}
+
+.serial td:first-child:before {
+    counter-increment: serial-number; 
+    content: counter(serial-number); 
+}
+.addicon{
+    float:right
+}
